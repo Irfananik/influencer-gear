@@ -159,3 +159,102 @@ body {
 
 
 /* company logo styles end*/
+
+
+/* product styles start */
+
+#product-text {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.product-collections {
+    width: 80%;
+    position: relative;
+    left: 290px;
+    top: 100px;
+}
+
+.product-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    git-gap: 10px;
+    justify-content: center;
+}
+
+.card {
+    width: 329px;
+    height: 486px;
+    margin: 30px 0;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 10px;
+    transition: all 1.7s ease;
+}
+
+.card:hover {
+    transform: scale(1.2);
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h1 {
+    font-size: 24px;
+    color: #E02C6D;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-left: 10px;
+}
+
+.card h2 {
+    font-size: 22px;
+    color: rgb(170, 145, 7);
+    font-weight: bold;
+    line-height: 1.5;
+    margin-left: 10px;
+}
+
+.card p {
+    font-size: 18px;
+    color: rgb(161, 159, 159);
+    font-weight: normal;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.card a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #ce346c;
+    font-weight: normal;
+    line-height: 2;
+    margin-left: 10px;
+}
+
+.fa-star {
+    color: #E02C6D;
+    margin-left: 10px;
+}
+
+.see-more-btn {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: 270px;
+    top: 120px;
+    padding: 10px;
+}
+
+.see-more-btn a {
+    text-decoration: none;
+    color: #E02C6D;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 5px;
+}
+
+.fa-arrow-right {
+    margin-left: 8px;
+}
