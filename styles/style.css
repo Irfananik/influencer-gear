@@ -258,3 +258,119 @@ body {
 .fa-arrow-right {
     margin-left: 8px;
 }
+
+
+/* product styles end */
+
+
+/*contact us section start*/
+
+.contact-us {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+    left: 270px;
+    width: 80%;
+}
+
+.contact-left {
+    width: 40%;
+    margin-left: 100px;
+}
+
+.contact-left img {
+    width: 700px;
+    height: 350px;
+}
+
+.contact-right {
+    width: 40%;
+    margin-left: 130px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filled-input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 18px;
+    font-family: inherit;
+    font-weight: 300;
+    outline: 0;
+    border: 1px solid #FF008E;
+}
+
+.contact-text {
+    font-size: 40px;
+    font-family: bold;
+    color: #E02C6D;
+}
+
+.contact-bnt {
+    width: 80px;
+    height: 35px;
+    background-color: #FF008E;
+    border: none;
+}
+
+.contact-bnt a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+}
+
+
+/* contact us section end */
+
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: #0A0826;
+    position: relative;
+    top: 350px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 150px;
+}
+
+.footer-text h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.footer-text p {
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.footer-text p:nth-child(3) {
+    text-align: center;
+}
+
+.footer-icon {
+    position: relative;
+    left: 40px;
+}
+
+.footer-icon a {
+    font-size: 40px;
+    color: #fff;
+    padding: 10px 10px;
+}
